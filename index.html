@@ -40,33 +40,9 @@
   <!-- header section -->
     <header class="w-11/12 mx-auto ">
       <nav>
-        <div class="navbar bg-base-100">
+        <div class="navbar py-6 ">
           <div class="navbar-start">
-            <div class="dropdown">
-              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor">
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M4 6h16M4 12h8m-8 6h16" />
-                </svg>
-              </div>
-              <ul
-                tabindex="0"
-                class="menu menu-sm  sm:hidden dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                <li><a>Home</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">Portfolio</a></li>
-                <li><a href="">Blogs</a></li>
-                <li><a href="">Contact Us</a></li>
-              </ul>
-            </div>
+           
             <a class="text-xl"><i class="fa-solid fa-arrow-right-long w-8 h-8 justify-center items-center inline-flex text-white   rounded-full bg-primary  -rotate-45"></i></span><span class="text-3xl ml-1 font-extrabold">Rinterio</span></a>
           </div>
           <div class="navbar-center  hidden lg:flex">
@@ -78,10 +54,11 @@
                 <li><a href="">Contact Us</a></li>
             </ul>
           </div>
-          <div class="navbar-end flex gap-2">
-            <i class="fa-solid fa-magnifying-glass w-8 h-8 justify-center items-center inline-flex text-[#737373]  rounded-full bg-white"></i>
-            <i class="fa-solid fa-cart-plus w-8 h-8 justify-center items-center inline-flex text-[#737373]  rounded-full bg-black"></i>
-            <a class="btn bg-primary rounded-3xl text-lg font-extrabold">Book Consult</a>
+          <div class="navbar-end  flex gap-4">
+            <i class="fa-solid fa-bars text-xl w-10 h-10 justify-center items-center inline-flex text-[#737373] bg-red-400 rounded-full bg-red lg:hidden block"></i>
+            <i class="fa-solid fa-magnifying-glass lg:w-8 lg:h-8 lg:justify-center lg:items-center lg:inline-flex text-[#737373]  rounded-full bg-white hidden lg:block"></i>
+            <i class="fa-solid fa-cart-plus w-8 h-8 lg:justify-center lg:items-center lg:inline-flex text-[#737373]  rounded-full bg-black hidden lg:block"></i>
+            <a class="lg:btn lg:bg-primary lg:rounded-3xl lg:text-lg lg:font-extrabold px-3 py-2 hidden lg:block">Book Consult</a>
           </div>
         </div>
       </nav>
@@ -218,7 +195,7 @@
              </div>
              <!-- latest protfoli grid -->
               <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-6">
-                <div class="lg:flex shadow-xl col-span-8 items-center justify-between gap-6 rounded-xl p-6 mt-12">
+                <div class="lg:flex shadow-xl col-span-12 lg:col-span-8 items-center justify-between gap-6 rounded-xl p-6 mt-12">
                   <div>
                     <img class="w-full" src="assets/img1.png" alt="">
                   </div>
@@ -231,14 +208,14 @@
                  
 
                 </div>
-                <div class="shadow-xl rounded-xl p-6 col-span-4">
+                <div class="shadow-xl rounded-xl p-6 col-span-12 lg:col-span-4">
                   <img class="w-full" src="assets/img2.png" alt="">
                 </div>
-                <div class="shadow-xl rounded-xl p-6 col-span-3">
+                <div class="shadow-xl rounded-xl p-6 col-span-12 lg:col-span-3">
                   <img class="w-full" src="assets/img3.png" alt="">
                 </div>
 
-                <div class="lg:flex shadow-xl col-span-6 items-center justify-between gap-6 rounded-xl p-6">
+                <div class="lg:flex shadow-xl col-span-12 lg:col-span-6 items-center justify-between gap-6 rounded-xl p-6">
                   <div>
                     <img class="w-full" src="assets/img4.png" alt="">
                   </div>
@@ -250,7 +227,7 @@
                  
 
                 </div>
-                <div class="shadow-xl rounded-xl p-6  lg:col-span-3">
+                <div class="shadow-xl rounded-xl p-6 col-span-12  lg:col-span-3">
                   <img class="w-full" src="assets/img5.png" alt="">
                 </div>
                 
@@ -310,13 +287,13 @@
                 <p class="text-base text-pracolor font-medium">The barn house captivates with its blend of rustic charm and <br>
                   modern sophistication, featuring weathered wood, sleek metal accents.</p>
                </div>
-            <div class="lg:w-7/12 mx-auto mt-12">
-              <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-                <input class="border-0 p-2  bg-white rounded-3xl" placeholder="First Name*" type="text" name="" id="">
-                <input class="border-0 p-2 bg-white rounded-3xl " placeholder="First Name*" type="text" name="" id="">
-                <input class="border-0 p-2  bg-white rounded-3xl" placeholder="First Name*" type="text" name="" id="">
-                <input class="border-0 p-2   bg-white rounded-3xl " placeholder="First Name*" type="text" name="" id="">
-                <textarea class="col-span-2 p-2 rounded-2xl" name="" id="" cols="20" rows="10" placeholder="Write your message here"></textarea>
+            <div class="lg:w-7/12 w-full mx-auto mt-12">
+              <div class="grid grid-cols-1  lg:grid-cols-2 gap-4">
+                <input class="border-0 p-3 col-span-2 bg-white rounded-3xl" placeholder="First Name*" type="text" name="" id="">
+                <input class="border-0 p-3 col-span-2 bg-white rounded-3xl " placeholder="First Name*" type="text" name="" id="">
+                <input class="border-0 p-3 col-span-2 bg-white rounded-3xl" placeholder="First Name*" type="text" name="" id="">
+                <input class="border-0 p-3 col-span-2  bg-white rounded-3xl " placeholder="First Name*" type="text" name="" id="">
+                <textarea class="col-span-2 p-3 rounded-2xl" name="" id="" cols="20" rows="10" placeholder="Write your message here"></textarea>
                 <button class="btn col-span-2 bg-[#ABEF5F] rounded-3xl text-lg font-extrabold">Send Mail<i class="fa-solid fa-arrow-right-long w-8 h-8 justify-center items-center inline-flex text-white   rounded-full bg-[#1C1C1C] -rotate-45"></i></button>
               </div>
             </div>
@@ -328,7 +305,7 @@
           <a class="text-xl inline-flex"><i class="fa-solid fa-arrow-right-long w-8 h-8 justify-center items-center inline-flex text-white   rounded-full bg-primary  -rotate-45"></i></span><span class="text-3xl ml-1 text-white font-extrabold">Rinterio</span></a>
           <p class="text-base text-pracolor font-medium">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
           
-          <nav class="grid grid-flow-col text-white gap-4">
+          <nav class="grid lg:grid-flow-col text-white gap-4">
             <a class="link link-hover">About us</a>
             <a class="link link-hover">Contact</a>
             <a class="link link-hover">Jobs</a>
