@@ -38,7 +38,7 @@
 </head>
 <body class="manrope-font">
   <!-- header section -->
-    <header class="w-11/12 mx-auto  bg-[#FCFDFC]">
+    <header class="w-full  mx-auto  bg-[#FCFDFC]" style="background-color: linear-gradient(0.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);">
       <nav>
         <div class="navbar py-6 ">
           <div class="navbar-start">
@@ -78,7 +78,7 @@
        </div>
     </header>
     <!-- main section -->
-     <main class="container mx-auto">
+     <main class="lg:w-11/12 md:w-9/12 w-full mx-auto">
       
       <!-- We design thoughtful, liveable spaces -->
        
@@ -199,7 +199,7 @@
              </div>
              <!-- latest protfoli grid -->
               <div class="grid grid-cols-1 md:grid-cols-12 lg:grid-cols-12 gap-6">
-                <div class="lg:flex shadow-xl col-span-12 md:col-span-8  lg:col-span-8 items-center justify-between gap-6 rounded-xl p-6">
+                <div class="lg:flex md:flex shadow-xl col-span-12 md:col-span-8  lg:col-span-8 items-center justify-between gap-6 rounded-xl p-6">
                   <div class=" ">
                     <img class="w-full h-full" src="assets/img1.png" alt="">
                   </div>
@@ -218,9 +218,9 @@
                   <img class="w-full h-full" src="assets/img3.png" alt="">
                 </div>
 
-                <div class="lg:flex shadow-xl col-span-12 md:col-span-6 lg:col-span-6 items-center justify-between gap-6 rounded-xl p-6">
+                <div class="lg:flex md:flex shadow-xl col-span-12 md:col-span-6 lg:col-span-6 items-center justify-between gap-6 rounded-xl p-6">
                   <div class="lg:h-full lg:w-full ">
-                    <img class="w-full h-full" src="assets/img4.png" alt="">
+                    <img class="w-full " src="assets/img4.png" alt="">
                   </div>
                   <div class="space-y-2 mt-5 lg:mt-0">
                     <h2 class="text-2xl font-bold">Commercial</h2>
@@ -232,6 +232,9 @@
                 </div>
                 <div class="shadow-xl rounded-xl p-6 col-span-12 md:col-span-3 lg:col-span-3">
                   <img class="w-full h-full" src="assets/img5.png" alt="">
+                </div>
+                <div class="shadow-xl rounded-xl p-6 col-span-12 md:hidden lg:hidden">
+                  <img class="w-full h-full" src="assets/article2.png" alt="">
                 </div>
                 
               </div>
@@ -282,7 +285,7 @@
 
            </section>
            <!-- Let’s Discuss Next Project -->
-            <section class="lg:p-24 md:p-12 p-8 bg-[url('./assets/bg.jpg')] bg-no-repeat bg-cover bg-center">
+            <section class="lg:p-24 md:p-12 p-8 bg-[url('./assets/bg.jpg')] bg-no-repeat bg-cover bg-center my-2">
               <div class="flex-col items-center text-center justify-center space-y-6">
                 <button> <a class=" bg-[#D5F6AF] text-pracolor rounded-3xl text-base py-1 px-6 font-extrabold"><i class="fa-solid fa-arrow-right-long text-pracolor mr-2"></i>Let’s Connect</a></button>
                 <h2 class="lg:text-5xl text-3xl font-extrabold">Let’s Discuss Next Project</h2>
@@ -291,9 +294,9 @@
             <div class="lg:w-7/12 w-full mx-auto mt-12">
               <div class="grid grid-cols-1  lg:grid-cols-2 gap-4">
                 <input class="border-0 p-3 col-span-2 lg:col-span-1 bg-white rounded-3xl" placeholder="First Name*" type="text" name="" id="">
-                <input class="border-0 p-3 col-span-2 lg:col-span-1 bg-white rounded-3xl " placeholder="First Name*" type="text" name="" id="">
-                <input class="border-0 p-3 col-span-2 lg:col-span-1 bg-white rounded-3xl" placeholder="First Name*" type="text" name="" id="">
-                <input class="border-0 p-3 col-span-2  lg:col-span-1 bg-white rounded-3xl " placeholder="First Name*" type="text" name="" id="">
+                <input class="border-0 p-3 col-span-2 lg:col-span-1 bg-white rounded-3xl " placeholder="Last Name*" type="text" name="" id="">
+                <input class="border-0 p-3 col-span-2 lg:col-span-1 bg-white rounded-3xl" placeholder="Phone Number*" type="text" name="" id="">
+                <input class="border-0 p-3 col-span-2  lg:col-span-1 bg-white rounded-3xl " placeholder="Email Number*" type="email" name="" id="">
                 <textarea class="col-span-2 p-3 rounded-2xl" name="" id="" cols="20" rows="7" placeholder="Write your message here"></textarea>
                 <button class="btn col-span-2 bg-[#ABEF5F] rounded-3xl text-lg font-extrabold">Send Mail<i class="fa-solid fa-arrow-right-long w-8 h-8 justify-center items-center inline-flex text-white   rounded-full bg-[#1C1C1C] -rotate-45"></i></button>
               </div>
